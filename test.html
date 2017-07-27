@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>cdroom-test</title>
+    <style>
+        div{
+            background-color: #00BFFF;
+            margin-left: 200px;
+            position: absolute;
+        }
+    </style>
+    <script src="js/test.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#b1").click(function(){
+                $("p").css("color","red")
+                        .slideUp(1000)
+                        .slideDown(1000);
+            });
+            $("#b2").click(function(){
+                $("p").slideDown(1000);
+            });
+            $("#b3").click(function(){
+                var div=$("div");
+                div.animate({left:'50px'});
+                div.animate({fontSize:'50px'}).css("background","pink");
+
+            })
+            $("#stopone").click(function(){
+                $("div").stop(true,true);
+            })
+        })
+
+    </script>
+</head>
+<body>
+    <button id="b1" type="button">click here</button>
+    <button id="b2" type="button">click here</button>
+    <button id="b3" type="button">c3</button>
+    <button id="stopone" type="button"> stop</button>
+    <div>
+        <p>This is a test</p>
+    </div>
+</body>
+</html>

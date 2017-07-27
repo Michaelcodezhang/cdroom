@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>创梦空间--登录界面</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #00BFFF;
+        }
+        header{
+            width: 1250px;
+            margin-left: 0;
+            margin-right: 0;
+            height: 250px;
+        }
+        #header{
+            background:#00BFFF ;
+        }
+        /*首部字样*/
+        #headfont1{
+            clear:left;
+            font-size:50px;
+            color:white;
+            align:left;
+        }
+        #headfont2{
+            font-size:30px;
+            color:white;
+        }
+        /*首部logo样式*/
+        #logo{
+            display: block;
+            float: left;
+            margin-left: 50px;
+        }
+        #logot{
+            display:block;
+            float:left;
+            color:white;
+            width: 50px;
+        }
+    </style>
+    <script src="js/Main.js"></script>
+</head>
+<center>
+<body>
+    <div id="header">
+        <header>
+
+            <br>
+            <img id="logo" src="img/LOGO-small.png" alt="cdroom-ico">
+            <br>
+            <p id="logot">&nbsp;CDROOM</p>
+            <br><br>
+            <hgroup>
+                <h1 id="headfont1">创&nbsp;梦&nbsp;空&nbsp;间</h1>
+                <h2 id="headfont2">Create and share your dreams here!</h2>
+            </hgroup>
+        </header>
+    </div>
+    <div id="content">
+        <form action="php/login.php">
+            邮箱/账号：<input type="text">
+            <br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码：<input type="password">
+            <br><br>
+            <input type="reset" value="重置">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="登录" onclick="toMain()">
+            <!--<input type="button" onclick="toMain()" value="aaaaa">-->
+        </form>
+    </div>
+    </body>
+</html>

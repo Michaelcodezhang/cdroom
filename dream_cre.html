@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<title>创梦空间--用户注册</title>
+<meta charset="utf-8" />
+<meta name="description" content="创梦空间www.cdroom.club" />
+    <link rel="icon" href="img/LOGO.ico">
+<script type="text/javascript">
+
+</script>
+<style>
+
+    body{
+        background-image: url(img/dream_cre4.jpg); 
+        background-repeat: no-repeat;
+        text-align:left;
+    }
+    #lside{
+        width: 400px;
+        height: 800px;
+        float:left;
+    }
+    #mside{
+        font-size: 16px;
+        float:left;
+    }
+    input{
+        color: green;
+        font-size: 16px;
+    }
+    #sub{
+        font-size: 15px;
+    }
+    #res{
+        font-size: 15px;
+    }
+    #footer{
+        width: 1300px;
+        margin-left:auto;
+        margin-right: auto; 
+        text-align: center;
+        clear:left;
+        position: fixed;
+        bottom:0;
+    }
+    #loser{
+        color: black;
+    }
+</style>
+</head>
+<ceter>
+    <body></body>
+        <div id="lside">
+        </div>
+        <div id="mside">
+            <br><br><br><br><br><br><br><br><br>
+                <h3>请填写您的注册资料：</h3><br />
+                <form name="iform" method="post" action="save.php">
+                您的昵称：
+                <input id="input0" type="text" /><br /><br />
+                注册账号：
+                <input id="input1" type="text" /><br /><br />
+                手机号码：
+                <input type="text" /><br /><br />
+                注册密码：
+                <input type="text" /><br /><br />
+                请选择您的性别：<br />
+                <input type="radio" name="radiosex" value="男" checked="checked" />男
+                <input type="radio" name="radiosex" value="女" />女
+                <br /><br />
+                请选择您的兴趣爱好（可多选）：<br />
+                <input type="checkbox" name="checkbox1" value="读书" />读书
+                <input type="checkbox" name="checkbox2" value="运动" />运动
+                <input type="checkbox" name="checkbox3" value="编程" />编程
+                <input type="checkbox" name="checkbox4" value="电影" />电影
+                <input type="checkbox" name="checkbox6" value="旅行" />旅行<br />
+                <input type="checkbox" name="checkbox7" value="摄影" />摄影
+                <input type="checkbox" name="checkbox8" value="其他" />其他
+                <input type="text" />
+                <br /><br /><br />
+                <input id="sub" type="submit" value="提交" />&nbsp;&nbsp;
+                <input id="res" type="reset" value="重置"/>
+            </form>         
+        </div>
+        <div id="footer">
+            <p align="center">○创梦空间@版权所有&nbsp;在本网站发言请遵从中华人民共和国法律规定。如有疑问，请联系我们，我们的邮箱<strong>z374100121@163.com</strong><a href="z374100121@163.com">发送</a>
+                <br />友情链接&nbsp;&nbsp;&nbsp;<a id="loser" href="www.loseshome.club">卢瑟社区</a>
+            </p>
+        </div>
+    </body>
+</html>

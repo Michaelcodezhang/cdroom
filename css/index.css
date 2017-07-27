@@ -1,0 +1,177 @@
+* {
+    padding:0;
+    margin:0;
+}
+/*整个body样式*/
+body{
+    background-color:white;
+    margin: 0;
+    top:0;
+}
+/*所有超链接样式*/
+a{
+    color:black;
+    text-decoration: none;
+}
+/*首部样式*/
+header{
+    width: 1250px;
+    margin-left: 0;
+    margin-right: 0;
+    height: 350px;
+}
+#header{
+    background:#00BFFF ;
+}
+/*首部字样*/
+#headfont1{
+    clear:left;
+    font-size:50px;
+    color:white;
+    align:left;
+}
+#headfont2{
+    font-size:30px;
+    color:white;
+}
+/*首部logo样式*/
+#logo{
+    display: block;
+    float: left;
+    margin-left: 50px;
+}
+#logot{
+    display:block;
+    float:left;
+    color:white;
+    width: 50px;
+}
+/*换色按钮样式*/
+#dbuttonul{
+    background: none;
+    border-color: #00BFFF;
+}
+.button-c{
+    background:none;
+    border: 0;
+    color: white;
+    display: block;
+    margin-left:0 ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-left: 0;
+}
+#dbutton{
+    position: fixed;
+    left:0;
+    top: 400px;
+}
+/*登陆注册部分样式*/
+.login {
+    display: block;
+    float: right;
+    margin-left: 50px;
+    padding-right: 50px;
+    text-align: right;
+    color: white;
+}
+/*中间部分样式*/
+.mider{
+    height: 500px;
+    width: 1250px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+/*中间部分字样*/
+.miderh{
+    padding-left: 80px;
+    float: left;
+    font-size: 30px;
+}
+#mider0{
+    width: 1250px;
+    margin-left:auto;
+    margin-right:auto;
+    height: 36px;
+    text-align: center;
+}
+.m0li:hover ul{
+    display: block;
+}
+.cdlink{
+    font-size: 20px;
+}
+#allul{
+    list-style-type: none;
+    padding:0;
+    margin-top: 10px;;
+    width: 1250px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.m0li{
+    float: left;
+    text-align: center;
+    position:relative;
+    margin-left: 100px;
+}
+#m0li1{
+    margin-left: 270px;
+}
+.m0li ul{
+    display: none;
+    list-style-type: none;
+    margin: 0;
+}
+.m0li ul li{
+    text-align: left;
+    border-color:black;
+    border:1px;
+    padding-top: 7px;
+    color:#D0D0D0;
+}
+#mider1{
+    background: white;
+    background-image: url("../img/blueone.jpg");
+    font-size: 30px;
+    color:black;
+}
+#mider1h{
+    clear: left;
+    color:black;
+}
+#mider2{
+    background-image: url("../img/road.jpg");
+    color:#00BFFF;
+}
+#mider2h{
+    float:right;
+    padding-right: 80px;
+    color: #00BFFF;
+}
+#mider3{
+    height:482px;
+    background: purple;
+    background-image: url("../img/dandelio.jpg");
+    color:#660000;
+}
+#mider3h{
+    color: #B00000;
+}
+/*尾部样式*/
+#footer{
+    height: 200px;
+    width: 1250px;
+    margin-left:auto;
+    margin-right:auto;
+    clear: left;
+    font-size: 15px;
+    text-align: center;
+    color:white;
+    background-color: #00BFFF;
+}
+#lastlogo{
+    font-size: 10px;
+}
