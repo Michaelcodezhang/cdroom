@@ -38,9 +38,9 @@ function logo(){
     ctx.shadowColor="rgba(0,0,0,0.5)";
     ctx.font="80px 隶书";
     ctx.fillStyle="white";
-    ctx.fillText("创 梦 空 间",290,80);
+    ctx.fillText("创 梦 空 间",200,80);
     ctx.font="40px 黑体";
-    ctx.fillText("Create and share your dreams here!",180,160);
+    ctx.fillText("Create and share your dreams here!",150,160);
 }
 window.onload=function(){
     logo();

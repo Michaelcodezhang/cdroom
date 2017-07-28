@@ -46,6 +46,10 @@ header{
     color:white;
     width: 50px;
 }
+.canvasd{
+    width: 800px;
+    margin:0 auto;
+}
 /*换色按钮样式*/
 #dbuttonul{
     background: none;
